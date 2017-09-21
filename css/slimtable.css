@@ -1,0 +1,112 @@
+/* http://colorschemedesigner.com/#3I11Tw0w0w0w04FZVK */
+
+.slimtable-container-div {
+	display: inline-block;
+}
+
+.slimtable {
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	width:100%;
+}
+#exampletable{
+	width:900px;
+}
+.slimtable th {
+	background-color: #3a69b4;
+	color: #ddd;
+	text-align: left;
+	height: 31px;
+	line-height: 17px;
+
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.slimtable th.slimtable-activeth {
+	background-color: #2a487f;
+}
+
+.slimtable td {
+	color: #222;
+	padding: 2px;
+}
+
+.slimtable tr:nth-child(even) {
+	background-color: #cccccc;
+	font-weight: bold;
+}
+
+.slimtable tr:nth-child(odd) {
+}
+
+/* Paging */
+.slimtable-paging-div {
+	margin-top: 5px;
+	display: inline-block;
+	width: 100%;
+}
+
+.slimtable-paging-seldiv {
+	display: inline;
+	float: right;
+}
+
+.slimtable-paging-select {
+	margin-right: 10px;
+	border: 1px solid #ccc;
+}
+
+.slimtable-paging-btnsdiv {
+	display: inline-block;
+}
+
+.slimtable-page-btn {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-weight: bold;
+	font-color:#fff;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.slimtable-page-btn.active {
+	background-color: #ccc;
+}
+
+/* Sprites */
+
+.slimtable-sprites {
+	margin-left: 2px;
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+}
+
+.slimtable-sortboth {
+	background-position: -1px -1px;
+}
+
+.slimtable-sortnone {
+	background-position: -19px -19px;
+}
+
+.slimtable-sortasc {
+	background-position: -1px -19px;
+}
+
+.slimtable-sortdesc {
+	background-position: -19px -1px;
+}
+
+.customclass1 {
+	text-align: center;
+}
